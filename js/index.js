@@ -17,9 +17,9 @@ function sumMessage() {
 	else {return "";}
 };
 function threeManMessage() {
-	if(diceTotal == 3) {return " 1 drink to 3Man.";}
-	else if (randomNumber1 == 3 && randomNumber2 == 3) {return " 2 drinks to 3Man";}
-	else if ((randomNumber1 == 3 || randomNumber2 == 3) && randomNumber1 != randomNumber2) {return " 1 drink to 3Man";}
+	if(diceTotal == 3) {return " 1 drink to 3man.";}
+	else if (randomNumber1 == 3 && randomNumber2 == 3) {return " 2 drinks to 3man";}
+	else if ((randomNumber1 == 3 || randomNumber2 == 3) && randomNumber1 != randomNumber2) {return " 1 drink to 3man";}
 	else {return "";}
 };
 function specialMessage() {
