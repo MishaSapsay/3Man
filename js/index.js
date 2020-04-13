@@ -13,7 +13,7 @@ else {return "";}};
 function sumMessage() {
 	if(diceTotal == 7) {return " 1 drink to player on your left.";}
 	else if(diceTotal == 9) {return " You drink 1. Lose your turn!";}
-	else if(diceTotal == 11) {return " 1 drink to player of your right.";}
+	else if(diceTotal == 11) {return " 1 drink to player on your right.";}
 	else {return "";}
 };
 function threeManMessage() {
